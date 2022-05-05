@@ -44,7 +44,7 @@
           # Setup Docker build X #
           ########################
           - name: Setup BuildX
-            uses: docker/setup-buildx-action@v1
+            uses: docker/setup-buildx-action@v2
 
           ##############################
           # Build the docker container #
